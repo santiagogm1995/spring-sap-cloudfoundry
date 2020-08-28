@@ -1,0 +1,6 @@
+---
+applications:
+  - name: hello-spring-cloud
+    instances: 1
+    random-route: true
+    path: target/zoo-0.0.1-SNAPSHOT.jar
